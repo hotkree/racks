@@ -1,0 +1,243 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
+- name: Cache
+  uses: actions/cache@v1.1.2
+  with:
+    # A directory to store and save the cache
+    path: 
+    # An explicit key for restoring and saving the cache
+    key: 
+    # An ordered list of keys to use for restoring the cache if no cache hit occurred for key
+    restore-keys: # optional- name: Cache
+  uses: actions/cache@v1.1.2
+  with:
+    # A directory to store and save the cache
+    path: 
+    # An explicit key for restoring and saving the cache
+    key: 
+    # An ordered list of keys to use for restoring the cache if no cache hit occurred for key
+    restore-keys: # optional- name: Zalenium Server
+  uses: ajinx/zalenium@1.1- name: Azure App Service Settings
+  uses: Azure/appservice-settings@v1
+  with:
+    # Name of the Azure Web App
+    app-name: 
+    # Name of an existing slot other than the production slot. Default value is production
+    slot-name: # optional
+    # Application settings using the JSON syntax set as value of secret variable: APP_SETTINGS
+    app-settings-json: # optional
+    # Connection Strings using the JSON syntax set as value of secret variable: CONNECTION_STRINGS
+    connection-strings-json: # optional
+    # General configuration settings using dictionary syntax - Key Value pairs
+    general-settings-json: # optional- name: Azure App Service Settings
+  uses: Azure/appservice-settings@v1
+  with:
+    # Name of the Azure Web App
+    app-name: 
+    # Name of an existing slot other than the production slot. Default value is production
+    slot-name: # optional
+    # Application settings using the JSON syntax set as value of secret variable: APP_SETTINGS
+    app-settings-json: # optional
+    # Connection Strings using the JSON syntax set as value of secret variable: CONNECTION_STRINGS
+    connection-strings-json: # optional
+    # General configuration settings using dictionary syntax - Key Value pairs
+    general-settings-json: # optional- name: Azure App Service Settings
+  uses: Azure/appservice-settings@v1
+  with:
+    # Name of the Azure Web App
+    app-name: 
+    # Name of an existing slot other than the production slot. Default value is production
+    slot-name: # optional
+    # Application settings using the JSON syntax set as value of secret variable: APP_SETTINGS
+    app-settings-json: # optional
+    # Connection Strings using the JSON syntax set as value of secret variable: CONNECTION_STRINGS
+    connection-strings-json: # optional
+    # General configuration settings using dictionary syntax - Key Value pairs
+    general-settings-json: # optional- name: Azure App Service Settings
+  uses: Azure/appservice-settings@v1
+  with:
+    # Name of the Azure Web App
+    app-name: 
+    # Name of an existing slot other than the production slot. Default value is production
+    slot-name: # optional
+    # Application settings using the JSON syntax set as value of secret variable: APP_SETTINGS
+    app-settings-json: # optional
+    # Connection Strings using the JSON syntax set as value of secret variable: CONNECTION_STRINGS
+    connection-strings-json: # optional
+    # General configuration settings using dictionary syntax - Key Value pairs
+    general-settings-json: # optional- name: Azure App Service Settings
+  uses: Azure/appservice-settings@v1
+  with:
+    # Name of the Azure Web App
+    app-name: 
+    # Name of an existing slot other than the production slot. Default value is production
+    slot-name: # optional
+    # Application settings using the JSON syntax set as value of secret variable: APP_SETTINGS
+    app-settings-json: # optional
+    # Connection Strings using the JSON syntax set as value of secret variable: CONNECTION_STRINGS
+    connection-strings-json: # optional
+    # General configuration settings using dictionary syntax - Key Value pairs
+    general-settings-json: # optional- name: Azure App Service Settings
+  uses: Azure/appservice-settings@v1
+  with:
+    # Name of the Azure Web App
+    app-name: 
+    # Name of an existing slot other than the production slot. Default value is production
+    slot-name: # optional
+    # Application settings using the JSON syntax set as value of secret variable: APP_SETTINGS
+    app-settings-json: # optional
+    # Connection Strings using the JSON syntax set as value of secret variable: CONNECTION_STRINGS
+    connection-strings-json: # optional
+    # General configuration settings using dictionary syntax - Key Value pairs
+    general-settings-json: # optional- name: Azure App Service Settings
+  uses: Azure/appservice-settings@v1
+  with:
+    # Name of the Azure Web App
+    app-name: 
+    # Name of an existing slot other than the production slot. Default value is production
+    slot-name: # optional
+    # Application settings using the JSON syntax set as value of secret variable: APP_SETTINGS
+    app-settings-json: # optional
+    # Connection Strings using the JSON syntax set as value of secret variable: CONNECTION_STRINGS
+    connection-strings-json: # optional
+    # General configuration settings using dictionary syntax - Key Value pairs
+    general-settings-json: # optional- name: Azure App Service Settings
+  uses: Azure/appservice-settings@v1
+  with:
+    # Name of the Azure Web App
+    app-name: 
+    # Name of an existing slot other than the production slot. Default value is production
+    slot-name: # optional
+    # Application settings using the JSON syntax set as value of secret variable: APP_SETTINGS
+    app-settings-json: # optional
+    # Connection Strings using the JSON syntax set as value of secret variable: CONNECTION_STRINGS
+    connection-strings-json: # optional
+    # General configuration settings using dictionary syntax - Key Value pairs
+    general-settings-json: # optional- name: Azure App Service Settings
+  uses: Azure/appservice-settings@v1
+  with:
+    # Name of the Azure Web App
+    app-name: 
+    # Name of an existing slot other than the production slot. Default value is production
+    slot-name: # optional
+    # Application settings using the JSON syntax set as value of secret variable: APP_SETTINGS
+    app-settings-json: # optional
+    # Connection Strings using the JSON syntax set as value of secret variable: CONNECTION_STRINGS
+    connection-strings-json: # optional
+    # General configuration settings using dictionary syntax - Key Value pairs
+    general-settings-json: # optional- name: Azure App Service Settings
+  uses: Azure/appservice-settings@v1
+  with:
+    # Name of the Azure Web App
+    app-name: 
+    # Name of an existing slot other than the production slot. Default value is production
+    slot-name: # optional
+    # Application settings using the JSON syntax set as value of secret variable: APP_SETTINGS
+    app-settings-json: # optional
+    # Connection Strings using the JSON syntax set as value of secret variable: CONNECTION_STRINGS
+    connection-strings-json: # optional
+    # General configuration settings using dictionary syntax - Key Value pairs
+    general-settings-json: # optional- name: Azure App Service Settings
+  uses: Azure/appservice-settings@v1
+  with:
+    # Name of the Azure Web App
+    app-name: 
+    # Name of an existing slot other than the production slot. Default value is production
+    slot-name: # optional
+    # Application settings using the JSON syntax set as value of secret variable: APP_SETTINGS
+    app-settings-json: # optional
+    # Connection Strings using the JSON syntax set as value of secret variable: CONNECTION_STRINGS
+    connection-strings-json: # optional
+    # General configuration settings using dictionary syntax - Key Value pairs
+    general-settings-json: # optional- name: Azure App Service Settings
+  uses: Azure/appservice-settings@v1
+  with:
+    # Name of the Azure Web App
+    app-name: 
+    # Name of an existing slot other than the production slot. Default value is production
+    slot-name: # optional
+    # Application settings using the JSON syntax set as value of secret variable: APP_SETTINGS
+    app-settings-json: # optional
+    # Connection Strings using the JSON syntax set as value of secret variable: CONNECTION_STRINGS
+    connection-strings-json: # optional
+    # General configuration settings using dictionary syntax - Key Value pairs
+    general-settings-json: # optional- name: Azure App Service Settings
+  uses: Azure/appservice-settings@v1
+  with:
+    # Name of the Azure Web App
+    app-name: 
+    # Name of an existing slot other than the production slot. Default value is production
+    slot-name: # optional
+    # Application settings using the JSON syntax set as value of secret variable: APP_SETTINGS
+    app-settings-json: # optional
+    # Connection Strings using the JSON syntax set as value of secret variable: CONNECTION_STRINGS
+    connection-strings-json: # optional
+    # General configuration settings using dictionary syntax - Key Value pairs
+    general-settings-json: # optional- name: Azure App Service Settings
+  uses: Azure/appservice-settings@v1
+  with:
+    # Name of the Azure Web App
+    app-name: 
+    # Name of an existing slot other than the production slot. Default value is production
+    slot-name: # optional
+    # Application settings using the JSON syntax set as value of secret variable: APP_SETTINGS
+    app-settings-json: # optional
+    # Connection Strings using the JSON syntax set as value of secret variable: CONNECTION_STRINGS
+    connection-strings-json: # optional
+    # General configuration settings using dictionary syntax - Key Value pairs
+    general-settings-json: # optional- name: Azure App Service Settings
+  uses: Azure/appservice-settings@v1
+  with:
+    # Name of the Azure Web App
+    app-name: 
+    # Name of an existing slot other than the production slot. Default value is production
+    slot-name: # optional
+    # Application settings using the JSON syntax set as value of secret variable: APP_SETTINGS
+    app-settings-json: # optional
+    # Connection Strings using the JSON syntax set as value of secret variable: CONNECTION_STRINGS
+    connection-strings-json: # optional
+    # General configuration settings using dictionary syntax - Key Value pairs
+    general-settings-json: # optional- name: Azure App Service Settings
+  uses: Azure/appservice-settings@v1
+  with:
+    # Name of the Azure Web App
+    app-name: 
+    # Name of an existing slot other than the production slot. Default value is production
+    slot-name: # optional
+    # Application settings using the JSON syntax set as value of secret variable: APP_SETTINGS
+    app-settings-json: # optional
+    # Connection Strings using the JSON syntax set as value of secret variable: CONNECTION_STRINGS
+    connection-strings-json: # optional
+    # General configuration settings using dictionary syntax - Key Value pairs
+    general-settings-json: # optional- name: Azure App Service Settings
+  uses: Azure/appservice-settings@v1
+  with:
+    # Name of the Azure Web App
+    app-name: 
+    # Name of an existing slot other than the production slot. Default value is production
+    slot-name: # optional
+    # Application settings using the JSON syntax set as value of secret variable: APP_SETTINGS
+    app-settings-json: # optional
+    # Connection Strings using the JSON syntax set as value of secret variable: CONNECTION_STRINGS
+    connection-strings-json: # optional
+    # General configuration settings using dictionary syntax - Key Value pairs
+    general-settings-json: # optional- name: Azure App Service Settings
+  uses: Azure/appservice-settings@v1
+  with:
+    # Name of the Azure Web App
+  
